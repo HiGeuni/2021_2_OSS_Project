@@ -59,22 +59,22 @@ Keywords = ["summer garden", "summer buliding", "winter garden", "winter buildin
 ```
 python crawler.py --txt ./examples/keyword.txt --dst ./
 ```
-in keyword.txt
-spring
-autumn
+in keyword.txt  
+spring  
+autumn  
 
 4. noPaint option
 ```
 python crawler.py --txt ./examples/keyword.txt --dst ./ --noPaint True
 ```
-True : No Paint Image
-False : All Image
+True : No Paint Image  
+False : All Image  
 
 5. limitSize option
 ```
 python crawler.py --txt ./examples/keyword.txt --dst ./ --noPaint True --limitSize=800
 ```
-max(이미지 너비, 이미지 높이) >= 800 인 이미지만 크롤링
+max(이미지 너비, 이미지 높이) >= 800 인 이미지만 크롤링  
 
 ### fileSelector.py
 1. 이미지를 정리할 때
@@ -85,7 +85,7 @@ python fileSelector.py --type="image" --to=./
 ```
 python fileSelector.py --type="file" --to=./
 ```
-⬇️ : next
+⬇️ : next  
 ➡️ : delete file 
-⬅️ : move file
-end : exit
+⬅️ : move file  
+end : exit  
