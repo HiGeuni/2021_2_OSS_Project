@@ -21,3 +21,7 @@ imagenet으로 pretrained된 Xception모델의 출력층을 제외하고 불러�
 ## 앞으로 할 일
 1. Xception 모델이 왜 잘 안되었는지 분석하고, 해결하고 싶습니다.
 2. 데이터의 수가 적은 것 같아서 늘려서 더 좋은 성능의 모델을 적용하고 싶습니다.
+
+## Reference
+model from https://www.kaggle.com/raulcsimpetru/vgg16-binary-classification
+Data Preprocessing from https://mj-lahong.tistory.com/82
