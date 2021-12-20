@@ -86,6 +86,6 @@ python fileSelector.py --type="image" --to=./
 python fileSelector.py --type="file" --to=./
 ```
 ⬇️ : next  
-➡️ : delete file 
+➡️ : delete file  
 ⬅️ : move file  
 end : exit  
