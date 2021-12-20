@@ -89,3 +89,5 @@ python fileSelector.py --type="file" --to=./
 ➡️ : delete file  
 ⬅️ : move file  
 end : exit  
+## Reference
+https://github.com/youtube-jocoding/python-selenium-google-image-crawling
