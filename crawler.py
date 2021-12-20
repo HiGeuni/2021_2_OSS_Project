@@ -82,7 +82,6 @@ def crawling(keyWord):
                 print(address + str(keyWord.replace(" ", "_").rstrip()) + str(cnt) + "." + args.type)
                 image.save(address + str(keyWord.replace(" ", "_").rstrip()) + str(cnt) + "."+args.type, "JPEG", quality=95,
                            optimize=True, progressive=True)
-            #urllib.request.urlretrieve(imgurl,address+str(keyWord.replace(" ", "_").rstrip())+str(i)+".jpg")
             image.close()
         except:
             pass
@@ -100,7 +99,6 @@ if __name__ == "__main__":
 
     elif args.txt:
         f = open(args.txt)
-        print(args.txt)
         for keyword in f.readlines():
             print(keyword)
             crawling(keyword)
